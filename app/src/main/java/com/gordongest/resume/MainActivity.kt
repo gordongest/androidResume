@@ -18,15 +18,14 @@ class MainActivity : AppCompatActivity() {
 
         val experienceButton = findViewById<Button>(R.id.exp_button)
         experienceButton.setOnClickListener {
-            val moveToExpActivity = Intent(getApplicationContext(), ExperienceActivity::class.java)
+            val moveToExpActivity = Intent(applicationContext, ExperienceActivity::class.java)
             startActivity(moveToExpActivity)
         }
 
         val educationButton = findViewById<Button>(R.id.edu_button)
         educationButton.setOnClickListener {
-            val moveToEduActivity = Intent(getApplicationContext(), EducationActivity::class.java)
+            val moveToEduActivity = Intent(applicationContext, EducationActivity::class.java)
             startActivity(moveToEduActivity)
-            println("booklearnin'")
         }
 
         val contactButton = findViewById<Button>(R.id.contact_button)
