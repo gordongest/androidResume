@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         val educationButton = findViewById<Button>(R.id.edu_button)
         educationButton.setOnClickListener {
+            val moveToEduActivity = Intent(getApplicationContext(), EducationActivity::class.java)
+            startActivity(moveToEduActivity)
             println("booklearnin'")
         }
 
