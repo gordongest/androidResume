@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         val aboutButton = findViewById<Button>(R.id.about_button)
         aboutButton.setOnClickListener {
-            println("about")
+            val moveToAboutActivity = Intent(applicationContext, AboutActivity::class.java)
+            startActivity(moveToAboutActivity)
         }
 
         val experienceButton = findViewById<Button>(R.id.exp_button)

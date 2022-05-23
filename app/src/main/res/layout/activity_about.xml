@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="About"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Hi! I am a Software Engineer focused on creating accessible, intuitive, beautiful apps. As a lifelong creative my first professional pursuit was in music, where I was fortunate to study with some of the world's most renowned artists and perform in major venues across the country. Having achieved my goals in the industry, I have turned my attention to software development, where I can use my skills as a creative thinker to build new and engaging user experiences.  During my musical training I developed strong proficiencies in problem solving, organization, autonomy, iteration, and critical thinking, all of which I have found to be of great value as a solution-oriented developer. I enjoy building and creating things, and especially tackling problems and finding solutions to user needs. I enjoy collaborating with others and have extensive experience working in teams and pair-coding. " />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

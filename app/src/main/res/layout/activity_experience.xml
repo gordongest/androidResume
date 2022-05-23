@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:text="Professional Experience"
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -33,6 +33,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_margin="10dp"
                 android:text="Campspot | June 2021 - June 2022 | Full-Stack Software Developer				                                  Led implementation of stateless authentication using JSON Web Tokens, eliminating database churn at login Alleviated database table and row locking via horizontal partitioning, reducing hanging queries by up to 40% Improved developer velocity by authoring new testing guides and templates, standardizing team practices for front-end unit testing in AngularJS Developed zero-downtime strategy and POC for migration to modern front end using Angular 12 and nginx  Hack Reactor @ Galvanize, Inc. | Jan 2021 - April 2021 | Software Engineering Immersive Resident Promoted individual learning by providing technical assistance to students enrolled in Hack Reactor’s Advanced Software Engineering program Taught concepts and workflows in JavaScript, Node.js, React, and Git by holding regular office hours Monitored and facilitated student progress in partnership with program Technical Leads and Mentors  DePaul University School of Music | June 2019 - Aug 2021 | Instructor of Saxophone and Clarinet Instructed students in instrumental technique, ear training, music theory, and improvisation in both individual and classroom settings Guided students to academic and artistic goals by designing and implementing individualized lesson plans Advanced Community Music Division student success initiatives by providing regular progress assessments " />
         </LinearLayout>
     </ScrollView>
