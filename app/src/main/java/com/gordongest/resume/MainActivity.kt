@@ -1,6 +1,7 @@
 package com.gordongest.resume
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -28,7 +29,16 @@ class MainActivity : AppCompatActivity() {
 
         val contactButton = findViewById<Button>(R.id.contact_button)
         contactButton.setOnClickListener {
-            println("ding")
+            val TO = arrayOf("gordon.gest@gmail.com")
+            val SUBJECT = "Great resume! We'd love to work with you :)"
+
+            val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
+                data = Uri.parse("mailto:")
+                putExtra(Intent.EXTRA_EMAIL, TO)
+                putExtra(Intent.EXTRA_SUBJECT, SUBJECT)
+            }
+
+            startActivity(emailIntent)
         }
     }
 }
