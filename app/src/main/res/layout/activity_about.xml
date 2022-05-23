@@ -32,7 +32,26 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Hi! I am a Software Engineer focused on creating accessible, intuitive, beautiful apps. As a lifelong creative my first professional pursuit was in music, where I was fortunate to study with some of the world's most renowned artists and perform in major venues across the country. Having achieved my goals in the industry, I have turned my attention to software development, where I can use my skills as a creative thinker to build new and engaging user experiences.  During my musical training I developed strong proficiencies in problem solving, organization, autonomy, iteration, and critical thinking, all of which I have found to be of great value as a solution-oriented developer. I enjoy building and creating things, and especially tackling problems and finding solutions to user needs. I enjoy collaborating with others and have extensive experience working in teams and pair-coding. " />
+                android:text="Hi! I am a Full Stack Software Engineer focused on creating accessible, intuitive, beautiful apps. As a lifelong creative my first professional pursuit was in music, where I was fortunate to study with some of the world's most renowned artists and perform in major venues across the country. Always in search of new experiences and challenges, I decided to turn my attention to software development, where I can use my creative skills to build new and engaging experiences for users." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="In the course of my musical training I developed strong proficiencies in problem solving, organization, autonomy, iteration, and critical thinking, all of which have come to be of great value as a solution-oriented developer. I enjoy building and creating things, and especially tackling problems and finding solutions to user needs. I enjoy collaborating with others and have extensive experience working in teams and pair-coding. " />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="In my off-time I spend too much time on bicycles, explore the Colorado wilderness, travel to as many places as I can, enjoy and brew craft beer, and take pictures of all of the above. If you're interested in working with me, tap the 'Contact' button on the home screen!" />
         </LinearLayout>
     </ScrollView>
 
