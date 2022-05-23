@@ -10,11 +10,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var experience = findViewById<Button>(R.id.exp_button)
+        val aboutButton = findViewById<Button>(R.id.about_button)
+        aboutButton.setOnClickListener {
+            println("about")
+        }
 
-        experience.setOnClickListener {
-            var moveToExpActivity = Intent(getApplicationContext(), ExperienceActivity::class.java)
+        val experienceButton = findViewById<Button>(R.id.exp_button)
+        experienceButton.setOnClickListener {
+            val moveToExpActivity = Intent(getApplicationContext(), ExperienceActivity::class.java)
             startActivity(moveToExpActivity)
+        }
+
+        val educationButton = findViewById<Button>(R.id.edu_button)
+        educationButton.setOnClickListener {
+            println("booklearnin'")
+        }
+
+        val contactButton = findViewById<Button>(R.id.contact_button)
+        contactButton.setOnClickListener {
+            println("ding")
         }
     }
 }
