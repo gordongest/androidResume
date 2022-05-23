@@ -1,5 +1,6 @@
 package com.gordongest.resume
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -12,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         var experience = findViewById<Button>(R.id.exp_button)
 
         experience.setOnClickListener {
-            println("you did it")
+            var moveToExpActivity = Intent(getApplicationContext(), ExperienceActivity::class.java)
+            startActivity(moveToExpActivity)
         }
     }
 }
