@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -11,45 +12,80 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/ubuntu"
         android:text="Gordon Gest"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textAllCaps="false"
+        android:textSize="32sp"
+        android:typeface="normal" />
 
-    <ImageView
-        android:id="@+id/profile_image"
-        android:layout_width="match_parent"
-        android:layout_height="225dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/gordon_headshot" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="15dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="130dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/gordon_headshot" />
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/about_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="About" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="About"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
     <Button
         android:id="@+id/exp_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Experience" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Experience"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
     <Button
         android:id="@+id/edu_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Education" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Education"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
     <Button
         android:id="@+id/contact_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Contact" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Contact"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
 </LinearLayout>
